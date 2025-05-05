@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Barbearia VIP</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans">
+  <!-- Hero -->
+  <section class="relative h-screen flex items-center justify-center text-center bg-[url('https://via.placeholder.com/1200x600')] bg-cover bg-center">
+    <div class="bg-black/60 w-full h-full absolute top-0 left-0"></div>
+    <div class="relative z-10 p-8">
+      <h1 class="text-4xl md:text-6xl font-bold text-yellow-400 drop-shadow-lg">Barbearia VIP</h1>
+      <p class="mt-4 text-lg md:text-xl text-white">Transforme seu visual com estilo e atitude</p>
+      <div class="mt-6 flex justify-center gap-4">
+        <a href="https://wa.me/55999999999" class="bg-yellow-500 hover:bg-yellow-600 text-black px-6 py-3 rounded-2xl shadow-lg">Agende pelo WhatsApp</a>
+        <a href="https://instagram.com/sua_barbearia" class="bg-white text-black hover:bg-gray-200 px-6 py-3 rounded-2xl shadow-lg">Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section class="py-12 px-6 text-center bg-black">
+    <h2 class="text-3xl text-yellow-400 font-bold mb-6">Nossos Serviços</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white text-black p-6 rounded-xl shadow-lg">
+        <h3 class="text-xl font-bold">Corte Masculino</h3>
+        <p>Estilo, precisão e qualidade garantida.</p>
+      </div>
+      <div class="bg-white text-black p-6 rounded-xl shadow-lg">
+        <h3 class="text-xl font-bold">Barba</h3>
+        <p>Acabamento limpo e personalizado.</p>
+      </div>
+      <div class="bg-white text-black p-6 rounded-xl shadow-lg">
+        <h3 class="text-xl font-bold">Design + Sobrancelha</h3>
+        <p>Visual completo e marcante.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carrossel de Imagens -->
+  <section class="py-12 px-6 bg-yellow-50 text-black text-center">
+    <h2 class="text-3xl font-bold mb-6">Nosso Estilo em Fotos</h2>
+    <div class="flex overflow-x-scroll gap-4">
+      <img src="https://via.placeholder.com/300" class="rounded-xl shadow-lg w-72 flex-shrink-0" />
+      <img src="https://via.placeholder.com/300" class="rounded-xl shadow-lg w-72 flex-shrink-0" />
+      <img src="https://via.placeholder.com/300" class="rounded-xl shadow-lg w-72 flex-shrink-0" />
+      <img src="https://via.placeholder.com/300" class="rounded-xl shadow-lg w-72 flex-shrink-0" />
+      <img src="https://via.placeholder.com/300" class="rounded-xl shadow-lg w-72 flex-shrink-0" />
+    </div>
+  </section>
+
+  <!-- Avaliações -->
+  <section class="py-12 px-6 bg-black text-center">
+    <h2 class="text-3xl text-yellow-400 font-bold mb-6">O que dizem nossos clientes</h2>
+    <div class="flex overflow-x-scroll gap-4">
+      <div class="bg-white text-black p-4 rounded-xl shadow-lg w-72 flex-shrink-0">
+        <p>"Melhor corte da cidade! Atendimento top."</p>
+        <span class="block mt-2 font-bold">João Silva</span>
+      </div>
+      <div class="bg-white text-black p-4 rounded-xl shadow-lg w-72 flex-shrink-0">
+        <p>"Ambiente limpo, organizado e profissionais incríveis."</p>
+        <span class="block mt-2 font-bold">Carlos Souza</span>
+      </div>
+      <div class="bg-white text-black p-4 rounded-xl shadow-lg w-72 flex-shrink-0">
+        <p>"Faço minha barba toda semana lá. Sensacional."</p>
+        <span class="block mt-2 font-bold">Pedro Lima</span>
+      </div>
+      <div class="bg-white text-black p-4 rounded-xl shadow-lg w-72 flex-shrink-0">
+        <p>"Muito satisfeito com o atendimento e o resultado."</p>
+        <span class="block mt-2 font-bold">André Santos</span>
+      </div>
+      <div class="bg-white text-black p-4 rounded-xl shadow-lg w-72 flex-shrink-0">
+        <p>"Volto sempre. Profissionalismo e estilo."</p>
+        <span class="block mt-2 font-bold">Felipe Rocha</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-black text-center text-white py-6">
+    <p>© 2025 Barbearia VIP — Todos os direitos reservados</p>
+  </footer>
+</body>
+</html>
