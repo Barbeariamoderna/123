@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Barbearia Moderna</title>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Oswald', sans-serif;
+      background-color: #0d0d0d;
+      color: white;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1588776814546-7ab8c69a2e26') no-repeat center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .btn {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 15px 30px;
+      background: #1db954;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+    .service {
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 10px;
+      width: 250px;
+    }
+    .service i {
+      font-size: 2em;
+      margin-bottom: 10px;
+      color: #1db954;
+    }
+    footer {
+      background: #111;
+      text-align: center;
+      padding: 30px;
+      color: #777;
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a2d9f7d294.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Barbearia Moderna<br>Estilo, atitude e excelência</h1>
+    <a class="btn" href="https://wa.me/5599999999999" target="_blank">Agende seu Corte</a>
+  </div>
+</header>
+
+<section id="servicos">
+  <h2>Nossos Serviços</h2>
+  <div class="services">
+    <div class="service">
+      <i class="fas fa-cut"></i>
+      <h3>Corte Masculino</h3>
+      <p>Moderno, degradê ou tradicional.</p>
+    </div>
+    <div class="service">
+      <i class="fas fa-beard"></i>
+      <h3>Barba</h3>
+      <p>Navalha, alinhamento e hidratação.</p>
+    </div>
+    <div class="service">
+      <i class="fas fa-gem"></i>
+      <h3>Pacote Completo</h3>
+      <p>Corte + barba com preço especial.</p>
+    </div>
+  </div>
+</section>
+
+<section id="depoimentos">
+  <h2>O que dizem nossos clientes</h2>
+  <p>"A melhor barbearia da cidade! Atendimento top e corte perfeito." – João</p>
+  <p>"Ambiente moderno e barbeiros de qualidade. Recomendo muito!" – Lucas</p>
+</section>
+
+<section>
+  <h2>Fale com a Gente</h2>
+  <a class="btn" href="https://wa.me/5599999999999" target="_blank">WhatsApp</a>
+</section>
+
+<footer>
+  © 2025 Barbearia Moderna | Desenvolvido com criatividade
+</footer>
+
+</body>
+</html>
